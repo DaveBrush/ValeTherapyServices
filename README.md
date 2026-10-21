@@ -11,19 +11,17 @@ Plain static HTML/CSS/JS, no build step, deployed with GitHub Pages.
 index.html          Single-page site (Home, About, First Session, FAQ, Contact)
 css/styles.css       Design system + layout
 js/main.js           Mobile nav toggle, footer year, contact form -> mailto
-assets/favicon.svg   Site icon
-assets/images/       Drop logo, headshot and BACP badge files here (see its README)
+assets/favicon.png   Site icon (cropped from the real logo)
+assets/images/       Logo, headshot, therapy room and BACP badge (see its README)
 CNAME                Custom domain: valetherapyservices.co.uk
 ```
 
 ## Before going live
 
-1. **Replace placeholder contact details** in `index.html` (`#contact` section):
-   the phone number is a placeholder, and the email defaults to
-   `hello@valetherapyservices.co.uk` — update both to the real ones.
-2. **Add real images** — see `assets/images/README.md` for the logo, headshot and
-   official BACP badge.
-3. **Contact form** currently opens the visitor's email client with a pre-filled
+1. **Confirm the contact email** in `index.html` (`#contact` section) — it currently
+   defaults to `hello@valetherapyservices.co.uk`; update it if Donna uses a different
+   inbox. The phone number is already the real one.
+2. **Contact form** currently opens the visitor's email client with a pre-filled
    message (works with zero backend, fine for GitHub Pages). If you'd rather receive
    submissions directly without that extra click, sign up for a free form service like
    Formspree or Netlify Forms and swap the form's behaviour in `js/main.js`.

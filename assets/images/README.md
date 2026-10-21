@@ -1,13 +1,12 @@
 # Images
 
-- `donna.jpg` — Donna's headshot, used in the About section. ✅ added.
-- `therapy-room.jpg` — the Offenham therapy room, used in the "Where are you?" FAQ answer. ✅ added.
-- `logo.png` (or `.svg`) — your actual Vale Therapy logo. The header currently uses a
-  hand-built SVG mark in the same palette as a stand-in, since the pasted logo image
-  couldn't be pulled out of the chat as a file. Swap it in by replacing the `.brand-mark`
-  SVG in `index.html` with an `<img src="assets/images/logo.png" ...>`.
-- `bacp-badge.png` — the official BACP "Registered Member" accreditation mark, downloaded
-  from your BACP member area. It's an official trust mark, so it's better to use BACP's
-  exact artwork rather than a recreation. The site currently shows the credential as text
-  ("BACP Registered Member 421301 (MBACP)") — once you add the file, it can be placed
-  next to that text or in the footer.
+- `donna.jpg` — Donna's headshot, used in the About section.
+- `therapy-room.jpg` — the Offenham therapy room, used in the "Where are you?" FAQ answer.
+- `logo.jpg` — the full Vale Therapy logo (emblem + wordmark), not currently used on the
+  page but kept here in case it's wanted somewhere full-size (e.g. a print leaflet).
+- `logo-icon.jpg` — just the circular emblem, cropped from `logo.jpg`, used as the small
+  header mark (`.brand-mark` in `index.html`) and as the source for `assets/favicon.png`.
+- `bacp-badge.png` — the official BACP "Registered Member" accreditation mark, used in the
+  About section and the footer.
+
+All in use — nothing outstanding here at the moment.
